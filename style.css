@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(190, 20, 190);
+    width: 24rem;
+
+
+
+
+height: 50rem;
+box-shadow: 10px 10px 15px #153acf;
+position: relative;
+margin: 6% auto;
+border-radius: 1rem;
+font-weight: bolder;
+background-color: hsl(177, 87%, 21%);
+padding: 8px;
+color: #aa2098;
+text-align: center;
+
+
+
+
+}
+
+
+
+
+.main-container{
+    
+    background: linear-gradient(rgba(10, 247, 117, 0.1), rgba(195, 212, 35, 0.1));
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+
+
+.heading{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+
+
+
+input:focus{
+    outline: none;
+}
+
+
+
+
+#name-box{
+    margin-top: 20px;
+    background: linear-gradient(#108cacee, #570de0da);
+    margin-bottom: 20px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 19px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#smt-btn{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 25px;
+    color:darkorange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+#smt-btn:hover{
+    background-color: rgb(206, 27, 146);
+    color: purple;
+    letter-spacing: 5px;
+    cursor: pointer;
+    
+} 
+
